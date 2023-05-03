@@ -16,7 +16,7 @@ class PalindromeService {
 public class PalindromeServiceTest {
     private final String checkedText;
     private final boolean expected;
-    // добавь два поля класса: для проверяемой строки и ожидаемого результата
+    
     public PalindromeServiceTest(String checkedText,boolean expected){
         this.expected = expected;
         this.checkedText = checkedText;
